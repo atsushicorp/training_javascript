@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>AJXAテスト</title>
+</head>
+<body>
+    <header>
+        <nav></nav>
+    </header>
+    <main>
+        
+        <div id="vl_main">
+            <h1>AJAXサンプルテスト</h1>
+            <p class="flot_l">ここに<span>取得した値</span>が入ります：</p>
+            <p class="flot_l" id="message"></p>
+        </div>
+
+        <div id="areaSelector">
+            <h1>地域セレクター</h1>
+            <p>下記の<span>地域</span>を選択すると自動で地域に対応する<span>市区町村</span>がセレクターにセットされます</p>
+
+            <ul>
+                <li class="selector_line">
+                    地域：<select class="prefectures"></select>
+                </li>
+                <li class="selector_line">
+                    市区町村：<select class="cities"></select>
+                </li>
+            </ul>
+            
+        </div>
+        
+    </main>
+    <footer>
+
+    </footer>
+    
+    <script src="main.js"></script>
+    <script src="pref.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {box-sizing: border-box;}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#vl_main span{
+    color: red;
+    font-size: 20px;
+}
+
+#vl_main .flot_l{
+    float: left;
+}
+
+#areaSelector{
+    padding-top: 20px;
+    clear: both;
+}
+
+#areaSelector span{
+    color: blue;
+    font-size: 20px;
+}
+
+.selector_line{
+    font-size: 25px;
+    list-style: none;
+}
